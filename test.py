@@ -19,17 +19,24 @@ def start():
 
 @app.route('/pattern', methods=['POST', 'GET'])
 def pattern():
-    if request.method == 'GET':
-        if request.form.get('1'):
-            print("ok")
-            return send_from_directory(directory="static", filename="image/sera.jpg")
-
+    if request.method == 'POST':
+        if request.form.get('1') == "1":
+            return send_from_directory(directory="static", filename="image/sera.jpg", as_attachment=True)
+        if request.form.get('2') == "2":
+            return send_from_directory(directory="static", filename="image/lucifer.jpg", as_attachment=True)
+        if request.form.get('3') == "3":
+            return send_from_directory(directory="static", filename="image/raphael.jpg", as_attachment=True)
     return render_template("pattern.html")
 
 
 @app.route('/check', methods=['POST', 'GET'])
 def check():
     return render_template("check.html")
+
+
+# @app.route('/check/response', methods=['POST', 'GET'])
+# def check():
+#     return render_template("check.html")
 
 
 @app.route('/recommendation', methods=['POST', 'GET'])
