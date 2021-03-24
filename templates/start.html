@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+  <title>ПУСК</title>
+     <style>
+   table {
+    width: 100%;
+    border-spacing: 0px 11px;
+   }
+  </style>
+ </head>
+ <body>
+  <table>
+   <tr>
+    <th style="width: 33%;" height="50">
+        <form method="post" action="/pattern">
+        <button value="two" name="two" >Шаблоны</button>
+        </form></th>
+    <th style="width: 33%;">
+        <form method="post" action="/check">
+        <button value="three" name="three" style="height: 100;">Проверка презентаций</button>
+        </form>
+    </th>
+    <th style="width: 33%;">
+        <form method="post" action="/recommendation">
+        <button value="two" name="two">Рекомендации</button>
+        </form>
+    </th>
+   </tr>
+  </table>
+  <table border="0">
+    <tr>
+        <td><h1 align="center">Добро пожаловать на сайт проекта "ПУСК"</h1></td>
+    </tr>
+    <tr>
+        <td><h1 align="center">Здесь вы можете:</h1></td>
+    </tr>
+      <tr>
+    <td>
+        <form method="post" action="/recommendation">
+            <center>
+                <button value="two" name="two" style="width: 500px;">Узнать о правильном оформлении презентации</button>
+            </center>
+        </form>
+    </td>
+    </tr>
+    <tr>
+        <td><form method="post" action="/check">
+      <center>
+      <button value="two" name="two" style="width: 500px;">Проверить свою презентацию</button>
+      </center>
+  </form></td>
+    </tr>
+
+  <tr><td><h1 align="center">или</h1></td></tr>
+  <tr><td><form method="post" action="/pattern">
+      <center>
+      <button value="two" name="two" style="width: 500px;">Скачать готовые шаблоны</button>
+      </center>
+  </form></td></tr>
+
+  </table>
+
+
+
+
+
+ </body>
+</html>
