@@ -6,66 +6,20 @@
   <title>ПУСК</title>
      <style>
    table {
-    width: 100%;
-    border-spacing: 0px 11px;
+    margin: 40px;
+    position: absolute;
+    right: 0;
+    border-spacing: 40px 0px;
    }
   </style>
  </head>
- <body>
-  <table>
-   <tr>
-    <th style="width: 33%;" height="50">
-        <form method="get" action="/pattern">
-        <button>Шаблоны</button>
-        </form></th>
-    <th style="width: 33%;">
-        <form method="get" action="/check">
-        <button style="height: 100;">Проверка презентаций</button>
-        </form>
-    </th>
-    <th style="width: 33%;">
-        <form method="get" action="/recommendation">
-        <button>Рекомендации</button>
-        </form>
-    </th>
-   </tr>
-  </table>
-  <table border="0">
-    <tr>
-        <td><h1 align="center">Добро пожаловать на сайт проекта "ПУСК"</h1></td>
-    </tr>
-    <tr>
-        <td><h1 align="center">Здесь вы можете:</h1></td>
-    </tr>
-      <tr>
-    <td>
-        <form method="get" action="/recommendation">
-            <center>
-                <button style="width: 500px;">Узнать о правильном оформлении презентации</button>
-            </center>
-        </form>
-    </td>
-    </tr>
-    <tr>
-        <td><form method="get" action="/check">
-      <center>
-      <button style="width: 500px;">Проверить свою презентацию</button>
-      </center>
-  </form></td>
-    </tr>
-
-  <tr><td><h1 align="center">или</h1></td></tr>
-  <tr><td><form method="get" action="/pattern">
-      <center>
-      <button style="width: 500px;">Скачать готовые шаблоны</button>
-      </center>
-  </form></td></tr>
-
-  </table>
-
-
-
-
-
+ <body background="../static/image/background.png" style="background-size: 100%;">
+ <table cellpadding="0">
+     <tr>
+         <td><form method="get" action="/pattern"><button style="width: 300px;">Скачать шаблоны</button></form></td>
+         <td><form method="get" action="/recommendation"><button style="width: 300px;">наши рекомендации</button></form></td>
+     </tr>
+ </table>
+        <form method="get" action="/check"><button style="width: 300px; margin-left: 200px; margin-top: 500px;">Проверить свою<br /> презентацию</button></form>
  </body>
 </html>

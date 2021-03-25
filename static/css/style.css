@@ -1,13 +1,49 @@
 button {
   font-weight: 700;
+  width:300px;
   color: white;
-  width: 100%;
   height: 50px;
-  border-radius: 3px;
-  background: rgb(64,199,129);
+  border-radius: 0;
+  background: transparent;
+  outline: none;
+  border: 0;
+  text-decoration: underline;
+  font-size: 25px;
 }
-button:hover { background: rgb(53, 167, 110); }
+button:hover {
+background: transparent;
+text-decoration: none;
+}
 button:active {
-  background: rgb(33,147,90);
-  box-shadow: 0 3px rgb(33,147,90) inset;
+  background: transparent;
+  outline: none;
 }
+h1 {
+font: 30px Arial;
+color: RGB(255, 255, 255);
+}
+
+p {
+font: 25px Arial;
+color: RGB(255, 255, 255);
+}
+body{background-color: RGB(217, 196, 151);}
+
+label{
+font: 20px Arial;
+color: RGB(255, 255, 255);
+}
+
+input {
+font: 20px Arial;
+color: RGB(255, 255, 255);
+background-color: RGB(217, 196, 151);
+text-decoration: underline;
+border: 0;
+}
+input:hover {
+background: transparent;
+text-decoration: none;
+}
+
+

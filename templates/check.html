@@ -18,12 +18,12 @@
         <button>Шаблоны</button>
         </form></th>
     <th style="width: 33%;">
-        <form method="post" action="/check">
+        <form method="get" action="/check">
         <button style="height: 100;">Проверка презентаций</button>
         </form>
     </th>
     <th style="width: 33%;">
-        <form method="post" action="/recommendation">
+        <form method="get" action="/recommendation">
         <button>Рекомендации</button>
         </form>
     </th>
@@ -31,13 +31,14 @@
   </table>
   <h1 align="center" style="margin:30px;">На данной странице вы можете проверить свою презентацию</h1>
 
- <form method="post" enctype="multipart/form-data" action="/check/response" >
+ <form method="post" enctype="multipart/form-data">
      <center>
     <div class="form-group" >
-        <label for="photo" style="font-size: 30px;">Выберите файл</label>
-        <input type="file" class="form-control-file" id="photo" name="file" style="font-size: 30px; button: rgb(64,199,129);">
+        <label for="loadFile" style="font-size: 25px;">Выберите файл</label>
+        <input type="button" id="loadFile" value="Выберите файл" onclick="document.getElementById('file').click()" />
+        <input type="file" style="display:none;" id="file" name="file"/>
     </div>
-     <button type="submit" style="width: 200px;"  class="btn btn-primary" >Отправить</button>
+     <button type="submit" style="width: 300px;"  class="btn btn-primary" >Отправить</button>
      </center>
  </form>
 

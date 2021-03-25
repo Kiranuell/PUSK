@@ -8,37 +8,42 @@
    table {
     width: 100%;
    }
+   body{
+    background-color: RGB(217, 196, 151);
+   }
+
+
   </style>
  </head>
  <body>
-  <table border="0">
+  <table>
    <tr>
     <th style="width: 33%;" height="50">
-        <form method="post" action="/pattern">
-        <button value="two" name="two" >Шаблоны</button>
+        <form method="get" action="/pattern">
+        <button>Шаблоны</button>
         </form></th>
     <th style="width: 33%;">
-        <form method="post" action="/check">
-        <button value="three" name="three" style="height: 100;">Проверка презентаций</button>
+        <form method="get" action="/check">
+        <button style = "height: 100;">Проверка презентаций</button>
         </form>
     </th>
     <th style="width: 33%;">
-        <form method="post" action="/recommendation">
-        <button value="two" name="two">Рекомендации</button>
+        <form method="get" action="/recommendation">
+        <button>Рекомендации</button>
         </form>
     </th>
    </tr>
   </table>
     <h1 align="center">На данной странице вы можете скачать готовые шаблоны</h1>
  <table><tr>
-    <td width="33%"><img src="../static/image/sera.jpg" width="100%"></td>
-     <td width="33%"><img src="../static/image/lucifer.jpg" width="100%"></td>
-     <td width="33%"><img src="../static/image/raphael.jpg" width="100%"></td>
+    <td width="33%"><img src="../static/image/algPicture.PNG" width="100%"></td>
+     <td width="33%"><img src="../static/image/rusPicture.PNG" width="100%"></td>
+     <td width="33%"><img src="../static/image/chemPicture.PNG" width="100%"></td>
  </tr>
      <tr>
-         <td><form method="post"><button value="1" name="1" >Скачать</button></form></td>
-         <td><form method="post"><button value="2" name="2" >Скачать</button></form></td>
-         <td><form method="post"><button value="3" name="3" >Скачать</button></form></td>
+         <td><center><form method="post"><button value="1" name="1" >Скачать</button></form></center></td>
+         <td><center><form method="post"><button value="2" name="2" >Скачать</button></form></center></td>
+         <td><center><form method="post"><button value="3" name="3" >Скачать</button></form></center></td>
      </tr>
  </table>
  </body>
