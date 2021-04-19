@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="378fc811-e5d7-43f0-ba90-69814848af82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sait.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sait.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/lucifer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/raphael.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/sera.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/check.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/check.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pattern.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recommendation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recommendation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/test2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/креативность.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PUSK.py" beforeDir="false" afterPath="$PROJECT_DIR$/PUSK.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,12 +37,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\PUSK\templates" />
       <recent name="F:\PycharmProjects\sait" />
     </key>
   </component>
@@ -75,8 +59,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="proverkapptx" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.PUSK">
+    <configuration name="PUSK" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sait" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proverkapptx.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PUSK.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PUSK" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.proverkapptxfont" />
         <item itemvalue="Python.proverkapptxtext" />
-        <item itemvalue="Python.proverkapptx" />
       </list>
     </recent_temporary>
   </component>

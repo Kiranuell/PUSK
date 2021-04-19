@@ -1,10 +1,5 @@
 from flask import Flask, render_template, request, send_from_directory, redirect, url_for
-from werkzeug.utils import secure_filename
-from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, BooleanField, SubmitField
-from wtforms.validators import DataRequired
-import os
-import os.path
+
 
 UPLOAD_FOLDER = '/presentations'
 
@@ -43,6 +38,8 @@ def check():
 def response(file):
     if file == "kreativnost.pptx":
         return render_template("response.html")
+    elif file == "PUSK.pptx":
+        return render_template("response2.html")
     return redirect("/check")
 
 
